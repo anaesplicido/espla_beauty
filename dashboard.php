@@ -40,9 +40,27 @@ if(!isset($_SESSION['usuario'])) {
         </div>
     </div>
 
+    <div class="main-content2">
+        <div class="welcome-message2">
+            <h1>Bem-vindo à Espla Beauty!</h1>
+            <p>A loja que transforma a sua rotina de beleza em uma experiência única e inspiradora. Localizada no coração da cidade, a Espla Beauty oferece uma ampla gama de produtos de beleza, desde cosméticos de alta qualidade até cuidados com a pele e cabelo.
 
-    <a href="logout.php">Sair da página</a>
+Nosso compromisso é proporcionar aos nossos clientes as melhores marcas e produtos, sempre alinhados às últimas tendências do mercado. Na Espla Beauty, acreditamos que a beleza é uma forma de expressão pessoal, e estamos aqui para ajudar você a encontrar os produtos que realçam sua individualidade.
 
+Além de uma seleção cuidadosamente curada de produtos, oferecemos também consultoria personalizada, onde nossos especialistas estão prontos para ajudar você a escolher os itens que melhor atendem às suas necessidades. Venha nos visitar e descubra um mundo de beleza que celebra a sua essência!</p>
+        </div>
+    </div>
+
+    <div class="main-content3">
+        <div class="welcome-message3">
+            <p>Na Espla Beauty, nossa seleção de produtos é pensada para atender a todas as suas necessidades de beleza. Trabalhamos com marcas renomadas e emergentes, garantindo que você tenha acesso ao que há de melhor no mercado.</p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; Desde 2025 Espla Beauty. Todos os direitos reservados.</p>
+        <a href="logout.php">Sair da página</a>
+</footer>
 
 </body>
 </html>
@@ -193,4 +211,50 @@ if(!isset($_SESSION['usuario'])) {
                 margin: 0 0.5rem;
             }
         }
+
+        .main-content2 {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+       
+        .welcome-message2 {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+       
+        .welcome-message2 h1 {
+            color: var(--primary-pink);
+            margin-bottom: 1rem;
+        }
+
+        .main-content3 {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+       
+        .welcome-message3 {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+       
+        .welcome-message3 h1 {
+            color: var(--primary-pink);
+            margin-bottom: 1rem;
+        }
+
+        footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-pink);
+    color: white;
+    }
+
     </style>
